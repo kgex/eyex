@@ -1,0 +1,11 @@
+Courses:
+Name: SharpenYourAxe2024, ID: 696869873279
+Name: Test Nivu, ID: 680222281074
+Name: AIES Batch 1, ID: 660191923617
+Name: KGX ML Bootcamp 2023, ID: 594155956185
+
+
+INFO:__main__:Title: Bank Marketing Analysis, ID: 
+
+
+https://developers.google.com/classroom/guides/auth
