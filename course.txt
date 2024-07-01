@@ -9,3 +9,14 @@ INFO:__main__:Title: Bank Marketing Analysis, ID:
 
 
 https://developers.google.com/classroom/guides/auth
+
+
+
+https://api.coursera.com/ent/api/businesses.v1/C894LttMQcGS3Kv6nSRPVQ/courseGradebookReports?q=search&emailOrExternalId=bhuvaneshwari.k@kgcas.com&includeDeletedMembers=true&start=0&limit=100
+
+
+
+ordid: 
+
+
+697165549254

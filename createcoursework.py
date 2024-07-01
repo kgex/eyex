@@ -34,12 +34,19 @@ def authenticate():
             token.write(creds.to_json())
     return build('classroom', 'v1', credentials=creds)
 
-def create_coursework(service, course_id):
+def create_coursework(service, course_id, course_title):
     due_date = datetime.utcnow() + timedelta(days=7)
     coursework = {
-        'title': 'Coursera Course',
+        'title': course_title,
         'description': 'This is a Coursera Course created for testing.',
-        'materials': [],
+        'materials': [
+            {
+                'link': {
+                    'url': 'https://classroom.github.com/a/EAaXb3N8',
+                    'title': 'GitHub Classroom Assignment'
+                }
+            }
+        ],
         'state': 'PUBLISHED',
         'dueDate': {
             'year': due_date.year,
@@ -50,7 +57,7 @@ def create_coursework(service, course_id):
             'hours': due_date.hour,
             'minutes': due_date.minute
         },
-        'maxPoints': 100,
+        'maxPoints': 50,
         'workType': 'ASSIGNMENT'
     }
     coursework = service.courses().courseWork().create(courseId=course_id, body=coursework).execute()
@@ -97,8 +104,11 @@ def main():
         # Define your course_id
         course_id = '660191923617'
 
+        # course details
+        course_title = 'helloworld-github'
+
         # Create coursework and get the ID
-        coursework_id = create_coursework(service, course_id)
+        coursework_id = create_coursework(service, course_id, course_title)
         print(coursework_id)
 
         # # Load marks data from JSON file
