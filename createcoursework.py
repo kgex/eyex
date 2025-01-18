@@ -57,7 +57,7 @@ def create_coursework(service, course_id, course_title):
             'hours': due_date.hour,
             'minutes': due_date.minute
         },
-        'maxPoints': 50,
+        'maxPoints': 100,
         'workType': 'ASSIGNMENT'
     }
     coursework = service.courses().courseWork().create(courseId=course_id, body=coursework).execute()
@@ -105,7 +105,7 @@ def main():
         course_id = '660191923617'
 
         # course details
-        course_title = 'helloworld-github'
+        course_title = 'Coursera: Supervised Machine Learning: Regression'
 
         # Create coursework and get the ID
         coursework_id = create_coursework(service, course_id, course_title)

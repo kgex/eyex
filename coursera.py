@@ -2,8 +2,8 @@ import requests
 import base64
 
 # Replace 'your_app_key' and 'your_app_secret' with your actual app key and secret
-app_key = 'ppAB26UFXUpsFdrnrCbFKGhzoqFQxp4D2eaRCJSZtqQr06Zp'
-app_secret = '3Nxm6uJSE8MbnXqEpOFmiyclqzctEeHfOxy6McoWE6vijTZu51DnwcCam04FFLUl'
+app_key = '6GnrBII8eTTnMRDNGBDe3jlmrXBI5ATXUxHRhj9KhIr0nBwg'
+app_secret = 'rPfBMbD49jpVvD1OJDbNG5rsAxh9J4AcHvhBaWDUmdDwNrGpzkY7SgL2QGMrONYl'
 
 # Encode the key and secret
 auth_string = f"{app_key}:{app_secret}"
