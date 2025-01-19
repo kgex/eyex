@@ -1,7 +1,7 @@
 import requests
 
 # Replace 'your_access_token' with the actual token you received
-access_token = ''
+access_token = 'BPqpTC5SHoRqSAIvHHU7EpILXjVk'
 
 # Replace 'org_id' with the actual organization ID you want to retrieve details for
 org_id = 'C894LttMQcGS3Kv6nSRPVQ'

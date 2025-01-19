@@ -1,4 +1,4 @@
-const programId = "7NjAOWY1R8eYwDlmNWfHzA"; //  Program ID for current semester
+const courseraProgramId = "7NjAOWY1R8eYwDlmNWfHzA"; //  Program ID for current semester
 var courseId = '660191923617'; // Replace with your Google Classroom course ID - For current semester
 
 function getOAuthToken() {
@@ -47,7 +47,7 @@ function getOAuthToken() {
 function fetchCourseraPrograms() {
   const accessToken = getOAuthToken();   
  
-  const url = `https://api.coursera.com/ent/api/businesses.v1/C894LttMQcGS3Kv6nSRPVQ/programs/${programId}/curriculumCollections`;
+  const url = `https://api.coursera.com/ent/api/businesses.v1/C894LttMQcGS3Kv6nSRPVQ/programs/${courseraProgramId}/curriculumCollections`;
 
   const headers = {
     "Authorization": `Bearer ${accessToken}`,

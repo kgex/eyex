@@ -1,0 +1,18 @@
+{'courseId': '660191923617', 'userId': '100496938028797713611', 
+'profile': {'id': '100496938028797713611', 'name': {'givenName': 'Pavithra', 'familyName': 'Ragunathan', 'fullName': 'Pavithra Ragunathan'},
+ 'permissions': [{'permission': 'CREATE_COURSE'}]}}
+
+{'courseId': '660191923617', 'userId': '110852575163920069136', 
+'profile': {'id': '110852575163920069136', 'name': {'givenName': 'Dhanvanthkumar', 'familyName': 'Umashankar', 'fullName': 'Dhanvanthkumar Umashankar'}, 
+'permissions': [{'permission': 'CREATE_COURSE'}]}}
+
+{'courseId': '660191923617', 'userId': '103675431215366690998', 
+'profile': {'id': '103675431215366690998', 'name': {'givenName': 'Gopi krishna', 'familyName': 'Sivakumar', 'fullName': 'Gopi krishna Sivakumar'}, 
+'permissions': [{'permission': 'CREATE_COURSE'}]}}
+
+{'courseId': '660191923617', 'userId': '115802916541216531036', 
+'profile': {'id': '115802916541216531036', 'name': {'givenName': 'Bhuvaneshwari', 'familyName': 'Kanagaraj', 'fullName': 'Bhuvaneshwari Kanagaraj'}}}
+
+{'courseId': '660191923617', 'userId': '118364386695139441310', 
+'profile': {'id': '118364386695139441310', 'name': {'givenName': 'Navaneeth', 'familyName': 'Malingan', 'fullName': 'Navaneeth Malingan'}, 
+'permissions': [{'permission': 'CREATE_COURSE'}]}}
